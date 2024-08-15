@@ -1,5 +1,5 @@
 function vote(candidate) {
-    fetch('/vote', {
+    fetch('https://voting-h0un.onrender.com/vote', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
